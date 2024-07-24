@@ -13,7 +13,8 @@
 }
 
 .logo-adv {
-    
+    width: 10%;
+    height: auto;
 }
 
 .field {
@@ -39,6 +40,39 @@ form {
     font-size:130%;
 }
 
+div {
+h4 {
+    color: #D93025;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 30px;
+    }
+}
+
+#border {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0.1px solid rgb(111, 111, 111);
+    opacity: 25%;   
+}
+
+#body-adv {
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    #logo-and-links {
+        display: inline-flexbox;
+        .pages{
+                text-align: right;
+                margin: 20px;
+                padding-right: 10px;
+                a {
+                    padding: 3px;
+                }            
+        }
+    }
+}
 
 /*
 class- logo, page(links), field(query field), button(search, lucky)
