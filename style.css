@@ -1,0 +1,22 @@
+/*
+logo id
+page id for images, adv search buttons
+field id
+
+*/
+
+#logo {
+    text-align: center ;
+}
+
+#page {
+    text-align: right;
+}
+
+#field {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
