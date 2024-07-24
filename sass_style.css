@@ -10,21 +10,28 @@
 .logo {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 30px;
 }
 
 .field {
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%;
+  width: 36%;
+  margin-left: 32%;
+  margin-right: 32%;
 }
 
 .button {
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 form {
+  padding-top: 30px;
   text-align: center;
+}
+
+#logotext {
+  color: #4285F4;
+  margin-left: 22.5%;
+  margin-top: -40px;
+  font-size: 130%;
 }
 
 /*
