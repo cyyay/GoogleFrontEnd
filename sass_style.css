@@ -13,7 +13,7 @@
 }
 
 .logo-adv {
-  width: 10%;
+  width: 140px;
   height: auto;
 }
 
@@ -60,7 +60,8 @@ div h4 {
   padding-right: 100px;
 }
 #body-adv #logo-and-links {
-  display: inline-flexbox;
+  display: grid;
+  grid-template-columns: auto;
 }
 #body-adv #logo-and-links .pages {
   text-align: right;
@@ -69,8 +70,4 @@ div h4 {
 }
 #body-adv #logo-and-links .pages a {
   padding: 3px;
-}
-
-/*
-class- logo, page(links), field(query field), button(search, lucky)
-*//*# sourceMappingURL=sass_style.css.map */
+}/*# sourceMappingURL=sass_style.css.map */

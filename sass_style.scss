@@ -13,7 +13,7 @@
 }
 
 .logo-adv {
-    width: 10%;
+    width: 140px;
     height: auto;
 }
 
@@ -62,7 +62,8 @@ h4 {
     padding-left: 100px;
     padding-right: 100px;
     #logo-and-links {
-        display: inline-flexbox;
+        display: grid;
+        grid-template-columns: auto;
         .pages{
                 text-align: right;
                 margin: 20px;
@@ -73,7 +74,3 @@ h4 {
         }
     }
 }
-
-/*
-class- logo, page(links), field(query field), button(search, lucky)
-*/
