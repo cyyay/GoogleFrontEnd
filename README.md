@@ -1,1 +1,2 @@
 # GoogleFrontEnd
+This project is a responsive clone of Google’s front page using HTML, CSS, Bootstrap, and Sass. The goal was to replicate the visual design and functionality of Google’s search interface, providing a familiar and intuitive user experience

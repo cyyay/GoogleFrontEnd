@@ -40,21 +40,26 @@ form {
     font-size:130%;
 }
 
-div {
-h4 {
-    color: #D93025;
-    margin-top: 20px;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
+#stuff {
     padding-left: 30px;
+    h4 {
+        color: #D93025;
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        }
+    div{
+        padding-top: 10px;
+        padding-bottom: 5px;
     }
+    
 }
 
 #border {
     margin-top: 10px;
     margin-bottom: 10px;
     border: 0.1px solid rgb(111, 111, 111);
-    opacity: 25%;   
+    opacity: 25%; 
 }
 
 #body-adv {
@@ -64,13 +69,47 @@ h4 {
     #logo-and-links {
         display: grid;
         grid-template-columns: auto;
-        .pages{
-                text-align: right;
-                margin: 20px;
-                padding-right: 10px;
-                a {
-                    padding: 3px;
-                }            
+    }
+}
+
+#adv-form{
+    h6 {
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+    div {
+        @media (min-width: 950px) {
+            display: grid;
+            grid-template-columns: 200px 300px 300px;
+            text-align: left;
+        }
+
+        @media (max-width: 949px) {
+            display: grid;
+            grid-template-columns: 20% 40% auto;
+            text-align: left;
+        }
+        p {
+            font-family: Arial, sans-serif;
         }
     }
+}
+
+.textfields {
+    padding-right: 20px;
+    max-width: 250px;
+
+}
+
+.left {
+    font-size: 13px;
+    color: #222222;
+}
+
+.right {
+    font-size: 11px;
+    color: #666666;
+    padding-left: 20px;
+    padding-top: 10px;
 }

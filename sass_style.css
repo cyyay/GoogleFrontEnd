@@ -39,12 +39,18 @@ form {
   font-size: 130%;
 }
 
-div h4 {
+#stuff {
+  padding-left: 30px;
+}
+#stuff h4 {
   color: #D93025;
   margin-top: 20px;
   font-family: Arial, sans-serif;
   font-size: 20px;
-  padding-left: 30px;
+}
+#stuff div {
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 #border {
@@ -63,11 +69,43 @@ div h4 {
   display: grid;
   grid-template-columns: auto;
 }
-#body-adv #logo-and-links .pages {
-  text-align: right;
-  margin: 20px;
-  padding-right: 10px;
+
+#adv-form h6 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: left;
 }
-#body-adv #logo-and-links .pages a {
-  padding: 3px;
+@media (min-width: 950px) {
+  #adv-form div {
+    display: grid;
+    grid-template-columns: 200px 300px 300px;
+    text-align: left;
+  }
+}
+@media (max-width: 949px) {
+  #adv-form div {
+    display: grid;
+    grid-template-columns: 20% 40% auto;
+    text-align: left;
+  }
+}
+#adv-form div p {
+  font-family: Arial, sans-serif;
+}
+
+.textfields {
+  padding-right: 20px;
+  max-width: 250px;
+}
+
+.left {
+  font-size: 13px;
+  color: #222222;
+}
+
+.right {
+  font-size: 11px;
+  color: #666666;
+  padding-left: 20px;
+  padding-top: 10px;
 }/*# sourceMappingURL=sass_style.css.map */

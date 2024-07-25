@@ -9,7 +9,7 @@
     </head>
     <body id="body-adv">
         <div id="logo-and-links">
-            <div class = "pages">
+            <div class = "page">
                 <a href = "index.html" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Search</a>
                 <a href = "images.html" class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Images</a>
             </div>
@@ -17,14 +17,40 @@
             <img src = "googlelogo_color_272x92dp.png" alt = "Google Logo" class="logo-adv">
         </div>
         </div>
-
         <div id="border">
         </div>
-
-        <div>
+        <div id="stuff">
             <h4>Advanced Search</h4>
+            
+        <form action="https://www.google.com/search" id="adv-form">
+            <h6>
+                Find pages with...
+            </h6>
+            <div>
+                <p class="left">all these words:</p>
+                <input type="text" name="as_q" class="form-control">
+                <p class="right">Type the important words: tri-colour rat terrier</p>
+            </div>
+            <div>
+                <p class="left">this exact word or phrase:</p>
+                <input type="text" name="as_epq" class="form-control">
+                <p class="right">Put exact words in quotes: "rat terrier"</p>
+            </div>
+            <div>
+                <p class="left">any of these words:</p>
+                <input type="text" name="as_oq" class="form-control">
+                <p class="right">Type OR between all the words you want: miniature OR standard</p>
+            </div>
+            <div>
+                <p class="left">none of these words:</p>
+                <input type="text" name="as_eq" class="form-control">
+                <p class="right">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+            </div>
+            <div class="button">
+                <input type="submit" class="btn" style="background-color: #4D90FE; color:azure; margin-top: 10px; width: 150px" value="Advanced Search">
+            </div>
+        </form>
         </div>
-
 
 
     </body>
